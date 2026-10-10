@@ -1,0 +1,7 @@
+{
+  "parent": "block/trapped_chest_right",
+  "textures": {
+    "particle": "minecraft:block/spruce_planks",
+    "chest": "minecraft:entity/chest/trapped_right"
+  }
+}

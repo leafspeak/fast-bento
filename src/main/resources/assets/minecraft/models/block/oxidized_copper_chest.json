@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/oxidized_copper_chest",
+  "textures": {
+    "particle": "minecraft:block/oxidized_copper",
+    "chest": "minecraft:entity/chest/oxidized_copper"
+  }
+}

@@ -1,0 +1,20 @@
+# Build artifacts
+.gradle/
+/build/
+/out/
+/classes/
+
+# IDE files
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Compiled JARs (keep the wrapper)
+!gradle-wrapper.jar
+!.mvn/wrapper/maven-wrapper.jar

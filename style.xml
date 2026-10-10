@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<stylesheet version="2.0" xmlns="http://www.w3.org/1999/XSL/Format">
+  <layout-master-set>
+    <simple-page-master master-name="A4" page-width="210mm" page-height="297mm"
+                        margin-top="20mm" margin-bottom="20mm"
+                        margin-left="20mm" margin-right="20mm">
+      <region-body region-name="xsl-region-body" margin-top="10mm"/>
+    </simple-page-master>
+  </layout-master-set>
+</stylesheet>

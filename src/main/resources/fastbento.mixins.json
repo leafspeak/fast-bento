@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "re.domi.fastbento.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "BlockEntityRenderManagerMixin",
+    "ChestBlockMixin",
+    "TrappedChestBlockMixin",
+    "EnderChestBlockMixin",
+    "CopperChestBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "fastbento.refmap.json"
+}

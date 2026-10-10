@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "fastbento",
+  "version": "${version}",
+
+  "name": "Fast Bento",
+  "description": "Advanced chest rendering optimization - Makes chests use static models instead of BERs for improved performance. Supports all chest types including copper variants. Compatible with Minecraft 26.1, 26.2, and 26.3.",
+  "authors": [
+    "Domi (original FastChest)",
+    "Fast Bento Team"
+  ],
+  "contact": {
+    "homepage": "https://github.com/FakeDomi/FastBento",
+    "sources": "https://github.com/FakeDomi/FastBento",
+    "issues": "https://github.com/FakeDomi/FastBento/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/fastbento/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "re.domi.fastbento.FastBentoMod"
+    ],
+    "modmenu": [
+      "re.domi.fastbento.config.ModMenuImpl"
+    ]
+  },
+  "mixins": [
+    "fastbento.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric": "*",
+    "minecraft": ">=26.1 <26.4",
+    "modmenu": ">=15.0.0"
+  },
+  
+  "custom": {
+    "fastbento": {
+      "version": "${version}",
+      "mc_version": "${mc_version}",
+      "features": [
+        "Static chest rendering",
+        "Per-chest-type optimization",
+        "Block entity ticker removal",
+        "Performance statistics"
+      ]
+    }
+  }
+}
